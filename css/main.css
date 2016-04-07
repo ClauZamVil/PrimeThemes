@@ -6,22 +6,42 @@ header {
 	background-size: cover;
 }
 ul{
+	position: absolute;
+	left: 600px;
+	top: 0px;
 	display: inline-table;
 }
 li {
 	display: table-cell; padding: 30px;
 	color: white;
+	font-family: helvetica;
 }
 .azul {
 	color: #26B5EB;
+	font-family: helvetica;
+
 }
-.star {
+
+.prime {
+	font-family: helvetica;
 	width: 200px;
 	height: 100px;
+	position: absolute;
+	left: 30px;
+	top: 20px;
 	color: white;
 }
+.titulo h1{
+	font-weight: lighter;
+}
+
 .titulo {
+	font-family: helvetica;
+    position: absolute;
+    left: 200px;
+    top: 250px;
     color: white;
+   
 }
 .centro {
 	text-align: center;
@@ -33,61 +53,104 @@ li {
 	position: relative;
 	background-size: cover;
 }
-.plomo {
-	width: 100%;
-	background-color: #BEBDBD;
+.gen {
+	position: absolute;
+	left: 500px;
+	top: 10px;
 }
-.ciudad {
-	background-image: url("../img/background/city.jpg");
-	width: 100%;
-	height: 400px;
+.foto {
+	width: 400px;
+	height: 250px;
+	border-top: 6px solid white;
+	border-left: 6px solid white; 
+	border-bottom: 40px solid white; 
+	border-right: 6px solid white;
+	margin: 15px;
+}
+
+.isq {
 	position: relative;
-	background-size: cover;
+	top: 150px;
+	left: 150px;
 }
-.parrafo {
+.der {
+	position: relative;
+	top: 150px;
+}
+span .di {
+	position: relative;
+	left: 100px;
+	top: 50px;
+}
+
+.col-4 i{
+	color: #66CCFF;
+}
+
+.col-4 h4{
+	color:#999999;
+
+}
+.col-4 p{
+	color: grey;
+	font-family: helvetica;
+	font-size: 10px;
+}
+
+.boton{
+	height: 36px;
+	width: 104px;
+	background-color: #333333;
+	margin-top: 340px;
+	margin-left:400px;
+
+
+}
+
+.ima h1{
+	font-weight: lighter;
+	font-family: helvetica;
+
+}
+
+.texto_boton{
 	text-align: center;
 	color: white;
+	font-family: helvetica;
+
+
 }
-.tik {
-	width: 150px;
-	height: 40px;
-	background-color:  transparent;
+
+.boton_2{
+	height: 36px;
+	width: 104px;
+	background-color: #333333;
+	margin-top: 340px;
+	margin-left:400px;
+
+
+}
+
+.texto_boton_2{
+	text-align: center;
 	color: white;
-}
-.uno {
-	background-color: white;
-	border: 90px solid #BEBDBD;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-left: 15px;
-	padding-bottom: 200px;
-}
-.dos {
-	background-color: #BEBDBD;
-	width: 200px;
-	height: 200px;
-}
-.tres {
-	background-color: #514A4A;
-	padding-bottom: 70px;
+	font-family: helvetica;
+	
+
 }
 
+.container_2{
+	background-color: #F2F2F2;
+}
 
+.col-6 h3{
+	color:grey;
+	font-family: helvetica;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fondo_2{
+	background-color: #333333;
+}
 
 
